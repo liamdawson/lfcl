@@ -1,11 +1,11 @@
 [root]
-name = "llcl-lib"
+name = "llclib"
 version = "0.1.0"
 
 [[package]]
 name = "llcl"
 version = "0.1.0"
 dependencies = [
- "llcl-lib 0.1.0",
+ "llclib 0.1.0",
 ]
 

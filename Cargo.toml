@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Liam Dawson"]
 
 [dependencies]
-llcl-lib = { path = "llcl-lib" }
+llclib = { path = "llclib" }
 # clippy = { version = "*", optional = true }
 
 [workspace]
