@@ -1,10 +1,10 @@
 [package]
-name = "llcl"
+name = "lfcl"
 version = "0.1.0"
 authors = ["Liam Dawson"]
 
 [dependencies]
-llclib = { path = "llclib" }
+lfclib = { path = "lfclib" }
 # clippy = { version = "*", optional = true }
 
 [workspace]

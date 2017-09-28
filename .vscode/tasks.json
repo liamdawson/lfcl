@@ -12,7 +12,12 @@
             ],
             "problemMatcher": [
                 "$rustc"
-            ]
+            ],
+            "options": {
+                "env": {
+                    "RUST_BACKTRACE": "1"
+                }
+            }
         },
         {
             "type": "shell",

@@ -1,5 +1,5 @@
 [root]
-name = "llclib"
+name = "lfclib"
 version = "0.1.0"
 dependencies = [
  "libusb 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -17,6 +17,13 @@ dependencies = [
 name = "bit-vec"
 version = "0.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "lfcl"
+version = "0.1.0"
+dependencies = [
+ "lfclib 0.1.0",
+]
 
 [[package]]
 name = "libc"
@@ -40,13 +47,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.2.31 (registry+https://github.com/rust-lang/crates.io-index)",
  "pkg-config 0.3.9 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "llcl"
-version = "0.1.0"
-dependencies = [
- "llclib 0.1.0",
 ]
 
 [[package]]
