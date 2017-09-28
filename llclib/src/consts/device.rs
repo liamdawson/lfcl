@@ -1,2 +1,6 @@
-const VENDOR_ID  : u16 = 0x04d8;
-const PRODUCT_ID : u16 = 0xf372;
+use device::LuxaforDeviceDescriptor;
+
+pub const FULL_FLAG : LuxaforDeviceDescriptor = LuxaforDeviceDescriptor {
+    vendor_id: 0x04d8,
+    product_id: 0xf372
+};

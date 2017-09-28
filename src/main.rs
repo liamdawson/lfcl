@@ -4,5 +4,10 @@
 extern crate llclib;
 
 fn main() {
-    println!("Hello, world!");
+    let ctx = llclib::device::LuxaforContext::new().unwrap();
+    let devices = ctx.devices(llclib::consts::device::FULL_FLAG).unwrap();
+
+    for d in devices {
+        println!("a device");
+    }
 }
