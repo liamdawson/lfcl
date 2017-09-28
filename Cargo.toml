@@ -1,0 +1,8 @@
+[package]
+name = "llcl"
+version = "0.1.0"
+authors = ["Liam Dawson"]
+
+[dependencies]
+
+[workspace]
