@@ -1,0 +1,6 @@
+[package]
+name = "llcl-lib"
+version = "0.1.0"
+authors = ["Liam Dawson <liam@liamdawson.me>"]
+
+[dependencies]
