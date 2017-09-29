@@ -1,11 +1,11 @@
 [package]
 name = "lfcl"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Liam Dawson"]
 
 [dependencies]
 lfclib = { path = "lfclib" }
-clap = { version = "~2.26" }# , default-features = false }
+clap = { version = "~2.26", default-features = false }
 # clippy = { version = "*", optional = true }
 
 [workspace]
