@@ -1,0 +1,7 @@
+[package]
+name = "lfclib"
+version = "0.1.0"
+authors = ["Liam Dawson <liam@liamdawson.me>"]
+
+[dependencies]
+libusb = "0.3"
