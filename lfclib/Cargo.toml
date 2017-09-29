@@ -2,6 +2,10 @@
 name = "lfclib"
 version = "0.0.1"
 authors = ["Liam Dawson <liam@liamdawson.me>"]
+description = "Small library for controlling a USB Luxafor flag"
+license = "Apache-2.0/MIT"
+homepage = "https://github.com/liamdawson/lfcl/lfclib"
+repository = "https://github.com/liamdawson/lfcl.git"
 
 [dependencies]
 libusb = "0.3"
