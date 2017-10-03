@@ -8,4 +8,5 @@ homepage = "https://github.com/liamdawson/lfcl/lfclib"
 repository = "https://github.com/liamdawson/lfcl.git"
 
 [dependencies]
-libusb = "0.3"
+libusb = "~0.3"
+hidapi = "~0.4"
