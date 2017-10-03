@@ -1,4 +1,3 @@
-extern crate libusb;
 extern crate hidapi;
 
 mod device;
