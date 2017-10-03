@@ -1,6 +1,6 @@
 [package]
 name = "lfclib"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["Liam Dawson <liam@liamdawson.me>"]
 description = "Small library for controlling a USB Luxafor flag"
 license = "Apache-2.0/MIT"

@@ -61,7 +61,7 @@ dependencies = [
 
 [[package]]
 name = "lfcl"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "clap 2.26.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "lfclib 0.0.1",

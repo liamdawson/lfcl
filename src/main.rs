@@ -6,6 +6,7 @@ extern crate clap;
 extern crate lfclib;
 
 use clap::Arg;
+use lfclib::LuxaforContext;
 
 fn main() {
     let matches : clap::ArgMatches = app_from_crate!()
@@ -33,15 +34,7 @@ fn main() {
         _ => [0u8, 0u8, 0u8]
     };
 
-    let ctx = lfclib::device::LuxaforContext::new().unwrap();
-    let devices = ctx.devices(lfclib::consts::device::FULL_FLAG).unwrap();
-
-    for d in devices {
-        match d.solid(colour[0], colour[1], colour[2]) {
-            Ok(_) => {},
-            Err(err) => {
-                println!("{}", err);
-            }
-        }
-    }
+    let ctx = LuxaforContext::new().unwrap();
+    let device = ctx.open_device(lfclib::consts::FULL_FLAG).unwrap();
+    device.solid(colour[0], colour[1], colour[2]).unwrap();
 }

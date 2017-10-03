@@ -1,6 +1,6 @@
 [package]
 name = "lfcl"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Liam Dawson"]
 description = "Small cli utility for controlling a USB Luxafor flag"
 license = "Apache-2.0/MIT"
@@ -10,6 +10,5 @@ repository = "https://github.com/liamdawson/lfcl.git"
 [dependencies]
 lfclib = { path = "lfclib", version = "0.0.1" }
 clap = { version = "~2.26", default-features = false }
-# clippy = { version = "*", optional = true }
 
 [workspace]
